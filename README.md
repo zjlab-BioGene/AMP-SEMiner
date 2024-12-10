@@ -84,11 +84,13 @@ python End_to_end_Tok_CLS/train_Tokens.py \
 
 ## Custom code for Colab Notebook
 
+Install and run our AMP discovery model [run_pred_AMP_SEMiner.ipynb](https://colab.research.google.com/drive/1-O8U7M6UTtSaMQqm3sX7ZOtkUCVEmmLt?usp=sharing)
+
 ## Datasource
 
 | DataBase | DataSet | Download URL |
 | - | - | - |
-| MGnify | mgnify_human_gut<br>mgnify_human_oral<br>mgnify_cow_rumen<br>mgnify_pig_gut<br>mgnify_fish_gut<br>mgnify_marine | https://www.ebi.ac.uk/metagenomics/browse/genomes |
+| MGnify | mgnify_human_gut<br>mgnify_human_oral<br>mgnify_cow_rumen<br>mgnify_pig_gut<br>mgnify_fish_gut<br>mgnify_zibrafish_fecal<br>mgnify_marine | https://www.ebi.ac.uk/metagenomics/browse/genomes |
 | CGMR | Chinese Gut Microbial Reference | https://ngdc.cncb.ac.cn/bioproject/browse/PRJCA017330 |
 | Hadza | Metagenomics dataset | https://doi.org/10.1016/j.cell.2023.05.046 |
 | Ancient-human-gut | Metagenomics dataset | https://www.nature.com/articles/s41586-021-03532-0 |
