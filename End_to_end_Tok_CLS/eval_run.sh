@@ -1,0 +1,15 @@
+python eval_Tokens.py --data_path ./data --outdir ./evaluation --model_name /home/lwh/00.data/AMP/trainedmodels/ftTokenCLS/esm2_t33_650M_UR50D-full-ft-for-Token-classification/epoch10-checkpoint-929910
+python eval_Tokens.py --data_path ./data --outdir ./evaluation --model_name /home/lwh/00.data/AMP/trainedmodels/ftTokenCLS/esm2_t33_650M_UR50D-full-ft-for-Token-classification/epoch11-checkpoint-1022901
+python eval_Tokens.py --data_path ./data --outdir ./evaluation --model_name /home/lwh/00.data/AMP/trainedmodels/ftTokenCLS/esm2_t33_650M_UR50D-full-ft-for-Token-classification/epoch12-checkpoint-1115892
+python eval_Tokens.py --data_path ./data --outdir ./evaluation --model_name /home/lwh/00.data/AMP/trainedmodels/ftTokenCLS/esm2_t33_650M_UR50D-full-ft-for-Token-classification/epoch13-checkpoint-1208883
+python eval_Tokens.py --data_path ./data --outdir ./evaluation --model_name /home/lwh/00.data/AMP/trainedmodels/ftTokenCLS/esm2_t33_650M_UR50D-full-ft-for-Token-classification/epoch14-checkpoint-1301874
+python eval_Tokens.py --data_path ./data --outdir ./evaluation --model_name /home/lwh/00.data/AMP/trainedmodels/ftTokenCLS/esm2_t33_650M_UR50D-full-ft-for-Token-classification/epoch15-checkpoint-1394865
+python eval_Tokens.py --data_path ./data --outdir ./evaluation --model_name /home/lwh/00.data/AMP/trainedmodels/ftTokenCLS/esm2_t33_650M_UR50D-full-ft-for-Token-classification/epoch1-checkpoint-92991
+python eval_Tokens.py --data_path ./data --outdir ./evaluation --model_name /home/lwh/00.data/AMP/trainedmodels/ftTokenCLS/esm2_t33_650M_UR50D-full-ft-for-Token-classification/epoch2-checkpoint-185982
+python eval_Tokens.py --data_path ./data --outdir ./evaluation --model_name /home/lwh/00.data/AMP/trainedmodels/ftTokenCLS/esm2_t33_650M_UR50D-full-ft-for-Token-classification/epoch3-checkpoint-278973
+python eval_Tokens.py --data_path ./data --outdir ./evaluation --model_name /home/lwh/00.data/AMP/trainedmodels/ftTokenCLS/esm2_t33_650M_UR50D-full-ft-for-Token-classification/epoch4-checkpoint-371964
+python eval_Tokens.py --data_path ./data --outdir ./evaluation --model_name /home/lwh/00.data/AMP/trainedmodels/ftTokenCLS/esm2_t33_650M_UR50D-full-ft-for-Token-classification/epoch5-checkpoint-464955
+python eval_Tokens.py --data_path ./data --outdir ./evaluation --model_name /home/lwh/00.data/AMP/trainedmodels/ftTokenCLS/esm2_t33_650M_UR50D-full-ft-for-Token-classification/epoch6-checkpoint-557946
+python eval_Tokens.py --data_path ./data --outdir ./evaluation --model_name /home/lwh/00.data/AMP/trainedmodels/ftTokenCLS/esm2_t33_650M_UR50D-full-ft-for-Token-classification/epoch7-checkpoint-650937
+python eval_Tokens.py --data_path ./data --outdir ./evaluation --model_name /home/lwh/00.data/AMP/trainedmodels/ftTokenCLS/esm2_t33_650M_UR50D-full-ft-for-Token-classification/epoch8-checkpoint-743928
+python eval_Tokens.py --data_path ./data --outdir ./evaluation --model_name /home/lwh/00.data/AMP/trainedmodels/ftTokenCLS/esm2_t33_650M_UR50D-full-ft-for-Token-classification/epoch9-checkpoint-836919
