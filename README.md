@@ -86,6 +86,15 @@ python End_to_end_Tok_CLS/train_Tokens.py \
 
 ## Datasource
 
+| DataBase | DataSet | Download URL |
+| - | - | - |
+| MGnify | mgnify_human_gut<br>mgnify_human_oral<br>mgnify_cow_rumen<br>mgnify_pig_gut<br>mgnify_fish_gut<br>mgnify_marine | https://www.ebi.ac.uk/metagenomics/browse/genomes |
+| CGMR | Chinese Gut Microbial Reference | https://ngdc.cncb.ac.cn/bioproject/browse/PRJCA017330 |
+| Hadza | Metagenomics dataset | https://doi.org/10.1016/j.cell.2023.05.046 |
+| Ancient-human-gut | Metagenomics dataset | https://www.nature.com/articles/s41586-021-03532-0 |
+| BGI_human_oral | 4D-SZ cohort | https://db.cngb.org/search/project/CNP0000687 |
+| glacier | Glacier Microbiomes | https://www.biosino.org/node/project/detail/OEP003083 |
+
 ## Citation
 
 ## Contacts
