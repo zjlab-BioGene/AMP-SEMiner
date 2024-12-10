@@ -98,4 +98,4 @@ Install and run our AMP discovery model [run_pred_AMP_SEMiner.ipynb](https://col
 
 ## Contacts
 
-jzheng@zhejianglab.org, liwh@zhejianglab.org, liwh@tongji.edu.cn
+zhengjinfang1220@gmail.com, liwh@zhejianglab.org, liwh@tongji.edu.cn
