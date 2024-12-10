@@ -6,9 +6,6 @@ This repository contains the custom code for **AMP-SEMiner**, a robust and compr
 
 ![Schematic diagram of the AMP-SEMiner framework](Figure_1.png)
 
-## Model weights & example data
-
-
 ## Environment
 AMP-SEMiner is run on Python 3.10 and PyTorch 2.1.2. You can build a conda environment for AMP-SEMiner using this [script](https://github.com/zjlab-BioGene/AMP-SEMiner/blob/main/scripts/env_install.sh).
 
