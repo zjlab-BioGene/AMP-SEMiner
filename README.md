@@ -6,6 +6,10 @@ This repository contains the custom code for **AMP-SEMiner**, a robust and compr
 
 ![Schematic diagram of the AMP-SEMiner framework](Figure_1.png)
 
+## Data Portal
+
+The AMPs identified using AMP-SEMiner are available through our dedicated data portal, [MAG-AMPome](http://mag-ampome.aigene.org.cn) (http://mag-ampome.aigene.org.cn). Visit the portal to access this comprehensive resource of antimicrobial peptides.
+
 ## Environment
 AMP-SEMiner is run on Python 3.10 and PyTorch 2.1.2. You can build a conda environment for AMP-SEMiner using this [script](https://github.com/zjlab-BioGene/AMP-SEMiner/blob/main/scripts/env_install.sh).
 
