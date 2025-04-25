@@ -1,5 +1,5 @@
 # !module load cuda/12.1
-# !export LD_LIBRARY_PATH=/home/lwh/miniconda3/envs/gnn/lib:$LD_LIBRARY_PATH
+# !export LD_LIBRARY_PATH=/YOUR_HOME/miniconda3/envs/gnn/lib:$LD_LIBRARY_PATH
 
 import os,sys,re
 # os.environ["CUDA_VISIBLE_DEVICES"]='0'
@@ -44,7 +44,7 @@ def get_parameters():
     parser.add_argument('--batch_size', type=int, default=32, help='input batch size for training. (default: 4)')
     parser.add_argument('--max_len', type=int, default=300, help='Max sequence length. (default: 300)')
     parser.add_argument('--min_seg_len', type=int, default=5, help='Minimum segament length. (default: 5)')
-    parser.add_argument('--model_name', type=str, default='/home/lwh/00.data/AMP/train/esm_token_focalloss/finetune/esm2_t33_650M_UR50D-rank-8-ft-for-TokenCLS-labelSmth-0.0/epoch11-checkpoint-2045802' , help='YOUR_MODEL_PATH.')
+    parser.add_argument('--model_name', type=str, default='model_weights/Tok_CLS_LoRA/epoch11' , help='YOUR_MODEL_PATH.')
     args = parser.parse_args()
     return args
 

@@ -1,5 +1,5 @@
 # !module load cuda/12.1
-# !export LD_LIBRARY_PATH=/home/lwh/miniconda3/envs/gnn/lib:$LD_LIBRARY_PATH
+# !export LD_LIBRARY_PATH=/YOUR_HOME/miniconda3/envs/gnn/lib:$LD_LIBRARY_PATH
 
 import os,sys,re
 import copy

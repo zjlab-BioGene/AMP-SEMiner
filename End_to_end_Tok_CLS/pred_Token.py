@@ -51,11 +51,11 @@ class SequenceDataset(Dataset):
 ## Get parameters
 def get_parameters():
     parser = argparse.ArgumentParser(description='AMP token classifer')
-    parser.add_argument('--input','-i', type=str, default='../data/AZ107.csv')
-    parser.add_argument('--output','-o', type=str, default='./out_prediction.tsv')
+    parser.add_argument('--input','-i', type=str, required=True, help='YOUR INPUT table.')
+    parser.add_argument('--output','-o', type=str, default='./out_prediction.tsv', help='YOUR OUTPUT predictions.')
     parser.add_argument('--batch_size', type=int, default=4, help='input batch size for training. (default: 4)')
     parser.add_argument('--max_len', type=int, default=300, help='Max sequence length. (default: 300)')
-    parser.add_argument('--model_name', type=str, default='../../trainedmodels/ESMforTokenClassification/esm2_650M/epoch20' , help='YOUR_MODEL_PATH.')
+    parser.add_argument('--model_name', type=str, default='model_weights/Tok_CLS/epoch15' , help='YOUR_MODEL_PATH.')
     parser.add_argument('--num_classes', type=int, default=2)
     args = parser.parse_args()
     return args

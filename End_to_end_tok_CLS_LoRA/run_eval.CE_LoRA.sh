@@ -1,13 +1,13 @@
 export CUDA_VISIBLE_DEVICES='0'
 
 eval_script='eval_Tokens.CE_LoRA.py'
-model_name='/home/lwh/00.data/AMP/train/esm_token_focalloss/finetune/esm2_t33_650M_UR50D-rank-8-ft-for-TokenCLS-labelSmth-0.0/epoch11-checkpoint-2045802'
+model_name='YOUR_MODEL_PATH'
 
-apd_data='/home/lwh/00.data/AMP/dataset/labels/indenpendAPD/dataset'
-apd_label='/home/lwh/00.data/AMP/dataset/labels/indenpendAPD/labels'
+apd_data='YOUR_APD_DATASET_FOLDER'
+apd_label='YOUR_APD_LABEL_FOLDER'
 
-lamp2_data='/home/lwh/00.data/AMP/dataset/labels/indenpendLAMP2/dataset'
-lamp2_label='/home/lwh/00.data/AMP/dataset/labels/indenpendLAMP2/labels'
+lamp2_data='YOUR_LAMP2_DATASET_FOLDER'
+lamp2_label='YOUR_LAMP2_LABEL_FOLDER'
 
 ## test-1
 python $eval_script --outdir ./evaluation --model_name $model_name
