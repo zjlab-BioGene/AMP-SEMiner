@@ -1,5 +1,5 @@
 # !module load cuda/12.1
-# !export LD_LIBRARY_PATH=/home/lwh/miniconda3/envs/gnn/lib:$LD_LIBRARY_PATH
+# !export LD_LIBRARY_PATH=/YOUR_HOME/miniconda3/envs/gnn/lib:$LD_LIBRARY_PATH
 
 import os,sys,re
 import copy
@@ -206,7 +206,7 @@ def get_parameters():
     parser.add_argument('--batch_size', type=int, default=16, help='input batch size for training (default: 8)')
     parser.add_argument('--epochs', type=int, default=30, help='number of epochs to train (default: 25)')
     parser.add_argument('--lr', type=float, default=1e-4, help='learning rate (default: 1e-4)')
-    parser.add_argument('--model_name', type=str, default='/home/lwh/00.data/AMP/basemodels/esm2_t30_150M_UR50D' , help="['facebook/esm2_t6_8M_UR50D', 'facebook/esm2_t12_35M_UR50D', 'facebook/esm2_t30_150M_UR50D', 'facebook/esm2_t33_650M_UR50D']")
+    parser.add_argument('--model_name', type=str, default='facebook/esm2_t30_150M_UR50D' , help="['facebook/esm2_t6_8M_UR50D', 'facebook/esm2_t12_35M_UR50D', 'facebook/esm2_t30_150M_UR50D', 'facebook/esm2_t33_650M_UR50D']")
     parser.add_argument('--num_classes', type=int, default=2)
     parser.add_argument('--ft_mode', type=str, default='full', help='Fine-tune mode: ["full", "lora", "freeze"]')
     parser.add_argument('--lora_rank', type=int, default=8,help='LoRa rank. (default 8).')

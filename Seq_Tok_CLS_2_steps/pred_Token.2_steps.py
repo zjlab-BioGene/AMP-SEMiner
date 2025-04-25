@@ -1,5 +1,5 @@
 # !module load cuda/12.1
-# !export LD_LIBRARY_PATH=/home/lwh/miniconda3/envs/gnn/lib:$LD_LIBRARY_PATH
+# !export LD_LIBRARY_PATH=/YOUR_HOME/miniconda3/envs/gnn/lib:$LD_LIBRARY_PATH
 
 import os,sys,re
 # os.environ["CUDA_VISIBLE_DEVICES"]='0'
@@ -22,11 +22,6 @@ os.environ['NCCL_IB_DISABLE'] = '1'
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 DATASET_TRAINING_KEYS = ['input_ids', 'attention_mask']
-
-root_path = '/mnt/asustor/wenhui.li/02.AMP/train/2_step_train'
-if root_path not in sys.path:
-    sys.path.append(root_path)
-
 
 class SequenceDataset(Dataset):
     def __init__(self, inputs, names, sequences):

@@ -15,9 +15,6 @@ import torch.utils.checkpoint
 from torch.utils.data import Dataset, DataLoader
 from transformers import EsmForTokenClassification
 from transformers import AutoTokenizer, DataCollatorForTokenClassification
-root_path = '/mnt/asustor/wenhui.li/02.AMP/train/esm_token_focalloss'
-if root_path not in sys.path:
-    sys.path.append(root_path)
 from train_Tokens_LoRA import MyTokensClassification
 
 os.environ['NCCL_P2P_DISABLE'] = '1'
@@ -62,7 +59,7 @@ def get_parameters():
     parser.add_argument('--output','-o', type=str, default='./out_prediction.tsv')
     parser.add_argument('--batch_size', type=int, default=4, help='input batch size for training. (default: 4)')
     parser.add_argument('--max_len', type=int, default=300, help='Max sequence length. (default: 300)')
-    parser.add_argument('--model_name', type=str, default='/mnt/asustor/wenhui.li/02.AMP/train/esm_token_focalloss/finetune/esm2_t33_650M_UR50D-rank-8-ft-for-TokenCLS-labelSmth-0.0/epoch11-checkpoint-2045802' , help='YOUR_MODEL_PATH.')
+    parser.add_argument('--model_name', type=str, default='model_weights/Tok_CLS_LoRA/epoch11' , help='YOUR_MODEL_PATH.')
     args = parser.parse_args()
     return args
 
